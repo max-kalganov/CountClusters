@@ -2,7 +2,7 @@ from unittest import TestCase
 from first_version import count_clusters
 
 
-class TestClasterSearch(TestCase):
+class TestClusterSearch_ver1(TestCase):
     def test_with_zero_clusters(self):
         graph = []
         correct_number_of_clusters = 0
